@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Horizon</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="title-div">
+            <a class="title-a" href="index.html"><h1 class="title">Horizon</h1></a>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="mortgage-calculator.html">Mortgage Calculator</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li class="active"><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <hr>    
+    </header>
+    <div class="heading-info">
+        <div class="col-left-heading">
+            <h1>Get in Contact With Us</h1>
+            <p>Any Questions? Get in contact with our Customer Service team and they'll be happy to help!</p>
+        </div>
+        <div class="col-right-heading">
+            <img class="services-image" src="../assets/contact-us.jpg" alt="Customer Service Representative">
+        </div>
+    </div>
+    <div class="form-container">
+        <h1>Contact us</h1>
+        <p>*Required</p>
+        <form action="faqs.html" method ="post" onsubmit="return false;">
+            Full Name*: <br>
+            <input type ="text" id="name" name="name" placeholder="Your Name" required><br>
+            Email*: <br>
+            <input type="email" id="email"  name="email" placeholder="Example@email.com" required><br>
+            Subject: <br>
+            <input type="text" name="subject" placeholder="Subject Line"><br>
+            Message*: <br>
+            <textarea name="message" id="message"  rows="10" cols="50" placeholder="Your Message" required></textarea><br>
+            <input type="submit" name="submit" id="submit-btn" value="Submit" onclick="submitMessage()">
+            </form>
+    </div>
+    <a href="#top"><button class="go-to-top"><b>Go to top ↑</b></button></a>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-link-wrapper">
+                    <div class="footer-link-items">
+                        <h2>About Horizon</h2>
+                        <hr class="footer-hr"><br>
+                        <a href="../html/about-us.html">About Us</a>
+                    </div>
+
+                    <div class="footer-link-items">
+                        <h2>Here To Help</h2>
+                        <hr class="footer-hr"><br>
+                        <a href="../html/contact-us.html">Contact us</a>
+                        <a href="../html/faqs.html">FAQs</a>
+                    </div>
+                    <div class="footer-link-items">
+                        <h2>Services</h2>
+                        <hr class="footer-hr"><br>
+                        <a href="../html/services.html">Our Services</a>
+                        <a href="../html/mortgage-calculator.html">Mortgage Calculator</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr2">
+            <section class="rights-reserved">
+                <div class="rights-wrap">
+                    <div class="footer-logo">
+                        <h1 class="footer-heading">Horizon</h1>
+                    </div>
+                    <p class="website_rights">
+                        ©<span id="year"></span> Horizon All rights reserved
+                    </p>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator | Horizon</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="title-div">
+            <a class="title-a" href="index.html"><h1 class="title">Horizon</h1></a>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li class="active"><a href="mortgage-calculator.html">Mortgage Calculator</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <hr>    
+    </header>
+    <div class="heading-info">
+        <div class="col-left-heading">
+            <h1>Mortgage Calculator</h1>
+            <h3>Broaden your horizons with a brand new home! Use our Mortgage Calculator below to calculate and determine exactly how much you need to pay* and whether or not you are eligable for a loan!</h3>
+            <p>*Fixed Interest Rate of 4.5%</p>
+        </div>
+        <div class="col-right-heading">
+            <img class="services-image" src="../assets/mortgage-loan.jpg" alt="Mortage Approved Example">
+        </div>
+    </div>
+    <div class="form-wrapper">
+        <div class="form-container">
+            <h1>Horizon's Mortgage Calulator</h1>
+            <form id="mortgage-form">
+                <p>*Required</p>
+                House Value* 
+                <input type="number" id="house-value" placeholder="House Value" min="0"/><br>
+                Down Payment*
+                <input type="number" id="down-payment" placeholder="Down Payment" min="0"/><br>
+                Loan Amount:
+                <input type="number" id="loan-amount" placeholder="Loan Amount" readonly/><br>
+                Loan Duration*
+                <input type="number" id="loan-duration" placeholder="Loan Duration (years)" min="1"/>
+                Yearly Income*
+                <input type="number" id="yearly-income" placeholder="Yearly Income" min="1"/>
+                <button id="calculate-button" class="calculate" type="submit">
+                    Calculate and Check Eligibility!
+                </button><br><br>
+                <button class="monthly-payment-output" type="button" disabled> 
+                    <b style="text-shadow: 1px 1px 1px rgba(0,0,0,0.3);">Monthly Payment: <span id="monthly-payment"></span>
+                    </b>
+                </button>
+                <br>
+                <br>
+                <button class="monthly-payment-output" type="button" disabled> 
+                    <b style="text-shadow: 1px 1px 1px rgba(0,0,0,0.3);">Eligibility: <span id="eligibility"></span>
+                    </b>
+                </button>
+                <br>
+                <br>
+                <button class="monthly-payment-output feature-item">Full Breakdown: </button><br>
+                <br>
+                <div class="full-breakdown-wrapper features-grid">
+                    <button class="monthly-payment-output mortgage-item">Total Repayment: <span id="total-repayment"></span></button>
+                    <button class="monthly-payment-output mortgage-item">Total Interest Paid: <span id="total-interest"></span></button>
+                    <button class="monthly-payment-output mortgage-item">Annual Income Remaining <br>(after payments): <span id="remaining-yearly-income"></span></button>
+                    <button class="monthly-payment-output mortgage-item">Monthly Income Remaining <br>(after payments): <span id="remaining-monthly-income"></span></button>
+                </div>
+            </form>
+        </div>
+    </div>      
+    <a href="#top"><button class="go-to-top"><b>Go to top ↑</b></button></a>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-link-wrapper">
+                    <div class="footer-link-items">
+                        <h2>About Horizon</h2>
+                        <hr class="footer-hr"><br>
+                        <a href="../html/about-us.html">About Us</a>
+                    </div>
+
+                    <div class="footer-link-items">
+                        <h2>Here To Help</h2>
+                        <hr class="footer-hr"><br>
+                        <a href="../html/contact-us.html">Contact us</a>
+                        <a href="../html/faqs.html">FAQs</a>
+                    </div>
+                    <div class="footer-link-items">
+                        <h2>Services</h2>
+                        <hr class="footer-hr"><br>
+                        <a href="../html/services.html">Our Services</a>
+                        <a href="../html/mortgage-calculator.html">Mortgage Calculator</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr2">
+            <section class="rights-reserved">
+                <div class="rights-wrap">
+                    <div class="footer-logo">
+                        <h1 class="footer-heading">Horizon</h1>
+                    </div>
+                    <p class="website_rights">
+                        ©<span class="test" id="year"></span> Horizon All rights reserved
+                    </p>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/mortgage-calculator-script.js"></script>
+</body>
+
+</html>

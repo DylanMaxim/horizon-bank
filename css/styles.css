@@ -1,0 +1,760 @@
+:root {
+    --colorprimary: #643A71;
+    --colorsecondary: #8B5FBF;
+    --coloraccent1: #D183C9;
+    --coloraccent2: #E3879E;
+    --coloraccent3: #FEC0CE;
+}
+
+header {
+    background-color: var(--colorprimary);
+    padding-top: 1px;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+body {
+    background: FFF4B7;
+    color: black;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 0px;
+    align-items: center;
+}
+
+li.active::after {
+    content: none;
+}
+
+h1.title {
+    color: white;
+    padding-left: 10px;
+}
+
+.title-div {
+    max-width: 130px;
+}
+
+a.title-a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--colorprimary);
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    padding: 14px 16px;
+    border-radius: 0px;
+}
+
+li:hover {
+    background-color: var(--colorsecondary);
+    padding: 14px 16px;
+}
+
+li.active {
+    background-color:var(--coloraccent1);
+    padding: 14px 16px;
+}
+
+a {
+    color: #eee;
+}
+
+p {
+    color: black;
+}
+
+p.hero-subheading {
+    font-size:larger;
+    color: white;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    color: black;
+}
+
+.form-container {
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 720px;
+    margin: auto;
+}
+
+.form-wrapper {
+    background-color: var(--coloraccent2);
+}
+
+.heading-info-flip {
+    min-height: 50vh;
+    background-color: var(--coloraccent2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        text-align: center;
+    }
+}
+
+/* index.html */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hero-image.jpg");
+  height: 84%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+ 
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #000;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+.hero-text button:hover {
+    background-color: var(--coloraccent1);
+    color: #000;
+    scale: 1.05;
+  }
+  
+.hero-wrapper {
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgba(100, 58, 113, 0.75);
+    color: #fff;
+}
+
+.section {
+    margin: 0px auto;
+    max-width: 1080px;
+    height: 50vh;
+}
+
+.col {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ind-wrapper {
+    padding-bottom: 250px;
+}
+
+.go-to-top {
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.go-to-top:hover {
+    background-color: var(--coloraccent3);
+}
+
+.info-wrapper {
+    background-color: var(--coloraccent3);
+    display: flex;
+    align-items: center ;
+    height: 175px;
+}
+
+
+.info {
+    .boe-rate {
+        padding-left: 5px;
+        color: #000;
+        text-align: center;
+    }
+    background-color: var(--colorsecondary);
+    max-height: 10vh;
+    margin-top: 0px;
+    border-radius: 20px;
+    }
+
+    /* Survey Indicator */
+
+.ind-container {
+        background-color: var(--coloraccent3);
+        padding-top: 5px;
+}
+
+h2.ind-heading {
+    font-size: x-large;
+}
+
+.ind.text {
+    width: 1080px;
+
+}
+
+p.ind-text {
+    font-size: large;
+
+}
+
+.ind-container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    column-gap: 250px;
+}
+
+img.gb {
+    width: 150%;
+    height: 150%;
+}
+
+img.ni {
+    width: 150%;
+    height: 150%;
+}
+
+    /* Why Bank With Us Stylizing */
+
+.why-choose-us {
+    background-color: var(--coloraccent2);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.why-choose-us .intro-text {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.feature-item {
+    background-color: var(--colorprimary);
+    box-shadow: 0px 4px 20px rbga(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.feature-item i.icon {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.feature-item h3{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+/* about-us.html */
+
+.about {
+    text-align: center;
+}
+
+.about-overlay-container {
+    position: relative;
+    width: 50%;
+  }
+
+.about-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--coloraccent1);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.about-overlay-container:hover .about-overlay {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.about-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 80%;
+    width: 80%; 
+    border-radius: 20px;
+}
+
+.about-text {
+    white-space: nowrap; 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+img.about-icon {
+    height: 20%;
+    width: 30%;
+}
+
+
+
+/* mortgage-calculator.html */
+
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    text-align: left;
+  }
+
+.alert-btn {
+    background-color:crimson;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calculate {
+    padding: 10px;
+}
+
+.monthly-payment-output {
+    background-color: var(--colorprimary);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.full-breakdown-wrapper {
+    max-width: 1080px;
+    height: 20vh;
+}
+
+.mortgage-grid {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.mortgage-item {
+    background-color: var(--colorprimary);
+    box-shadow: 0px 4px 20px rbga(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    max-width: 160px;
+    max-height: 100px;
+}
+
+
+/* our-services.html */
+
+.heading-info {
+    min-height: 50vh;
+    background-color: var(--coloraccent3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        text-align: center;
+    }
+}
+
+.col-left-heading {
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.col-right-heading {
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+img.services-image {
+    height: 70%;
+    width: 70%;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.block {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30% ;
+}
+
+.bento-wrapper {
+    min-height: 100vh;
+    background-color: var(--coloraccent2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bento-container { 
+    width: 1440px;
+    height: 650px;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.col-left {
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.col-right {
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row {
+    flex: 1;
+    border: 1.5px solid var(--colorsecondary);
+    border-radius: 2em;
+    text-align: center;
+    background-color: var(--coloraccent3);
+    box-shadow: 20px 20px 50px 15px rgba(0, 0, 0, 0.3);
+}
+
+    /* Rotating Info followed from tutorial: https://www.youtube.com/watch?v=yZnmEwzHfZw */
+
+.rotating-services {
+    overflow: hidden;
+    padding: 40px 0;
+    background: #f8f8f8;
+    white-space: nowrap;
+}
+
+.rotating-services:hover .rotating-services-track {
+    animation-play-state: running;
+}
+
+.rotating-services-track {
+    display: inline-block;
+    animation: rotate 12s linear infinite;
+}
+
+.services-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2b302d;
+    margin: 0 40px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* contact-us.html */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    text-align: left;
+  }
+  
+  input[type=email], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: none;
+      text-align: left;
+    }
+  
+  input[type=submit] {
+    background-color: var(--coloraccent2);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--colorsecondary);
+  }
+
+
+/* faq.html */
+.faq-container {
+    background-color: var(--coloraccent3);
+    display: flex;
+    height: 300px
+}
+
+.left-col {
+    width: 60%;
+    padding: auto;
+    margin-left: 100px;
+}
+
+.faq-header-wrapper {
+    margin-left: 350px;
+}
+
+.right-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.faq-image {
+    height: auto;
+    width: 60%;
+}
+
+h2.faq-heading2 {
+    margin-left: 450px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    text-align: left;
+    border: none;
+    outline: none;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+a.faq-hyperlink:hover{
+    color: var(--coloraccent2);
+}
+
+.panel {
+    padding: 0 18px;
+    width: 50%;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    max-width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: max-height .2s ease-out;
+  }
+
+.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; 
+}
+
+a.faq-hyperlink {
+    color: #777;
+}
+
+.faq-wrapper {
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+
+/* Footer Stylizing */
+
+.footer-container {
+    background-color: var(--colorprimary);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+hr.footer-hr {
+    width: 200px;
+}
+
+hr.footer-hr2 {
+    width: 670px;
+}
+
+h1.footer-heading {
+    font-size:xxx-large;
+}
+
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    text-align: left;
+    width: 200px;
+}
+
+.footer-link-items h2 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer-link-items a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-link-items a:hover {
+    color: #777;
+    transition: 0.3s ease-out;
+}
+
+.rights-reserved {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.rights-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+
+.footer-heading {
+    color: white;
+}

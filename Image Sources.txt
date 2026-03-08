@@ -1,0 +1,15 @@
+This project is for educational purposes only.
+All Images sourced from stock image websites:
+
+animated-family-house.jpg:
+hero-image.jpg: https://www.istockphoto.com/photo/portrait-of-smiling-family-standing-outside-home-together-gm1339018991-419452073
+banking-services.jpg: https://www.shutterstock.com/image-vector/banking-finance-concept-digital-connect-system-2467503643
+contact-us.jpg: https://stock.adobe.com/search?k=contact+us&asset_id=205329787
+mission-icon.jpg: https://stock.adobe.com/uk/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=our+mission&order=relevance&limit=100&search_page=1&search_type=usertyped&acp=&aco=our+mission&get_facets=0&asset_id=1057441169
+values-icon.jpg: https://stock.adobe.com/uk/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=our+mission&order=relevance&limit=100&search_page=1&search_type=usertyped&acp=&aco=our+mission&get_facets=0&asset_id=1057441169
+vision-icon.jpg: https://stock.adobe.com/uk/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=our+mission&order=relevance&limit=100&search_page=1&search_type=usertyped&acp=&aco=our+mission&get_facets=0&asset_id=1057441169
+mortgage-loan.jpg: https://stock.adobe.com/uk/search?k=mortgage&search_type=usertyped&asset_id=98922171
+
+Faux Service Indicators from https://www.nationwide.co.uk and editted:
+gb-overall-service-quality.jpg
+ni-overall-service-quality.jpg
